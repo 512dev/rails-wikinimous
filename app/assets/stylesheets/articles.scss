@@ -56,6 +56,19 @@
 	color: grey;
 	font-size: 1.25em;
 }
+.link-grey a{
+	text-decoration: none;
+	color: grey;
+	font-size: 1.25em;
+	display: inline-block;
+}
+.link-grey p{
+	text-decoration: none;
+	color: grey;
+	font-size: 1.25em;
+	margin: 0;
+	display: inline-block;
+}
 .form{
 	margin: 0 auto;
 	width: 33%;
@@ -69,8 +82,9 @@
 .login{
 	display: flex;
 	justify-content: space-around;
+	width: 25%;
 }
 .sign{
-	margin-top: 5px;
+	margin-top: 3px;
 }
 
