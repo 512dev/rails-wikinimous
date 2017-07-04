@@ -1,0 +1,68 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+	width: 100%;
+}
+.inline-block{
+	display: inline-block;
+}
+.inline-block li{
+	list-style: none;
+}
+.article-title{
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+.article-title a{
+	text-decoration: none;
+	color: #008CB5;
+	text-shadow: 1px 1px 2px grey;
+}
+.article-content{
+	font-size: 1.2em;
+	padding-bottom: 15px;
+}
+.nav{
+	// width: 900px;
+	height: 35px;
+	// position: absolute;
+	display: flex;
+	justify-content: space-between;
+	background-color: #F8F8F8;
+}
+
+.logo a{
+	text-decoration: none;
+	color: grey;
+	font-size: 1.25em;
+
+}
+.logo{
+	margin-top: 5px;
+}
+.new-article{
+	margin-top: 5px;
+}
+.new-article a{
+	text-decoration: none;
+	color: grey;
+	font-size: 1.25em;
+}
+.link-grey{
+	text-decoration: none;
+	color: grey;
+	font-size: 1.25em;
+}
+.form{
+	margin: 0 auto;
+	width: 33%;
+}
+.form-title{
+	padding: 10px;
+}
+.form-content{
+	margin: 10px;
+}
+
