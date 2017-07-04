@@ -1,4 +1,6 @@
 <h1><%= @article.title %></h1>
 <p><%= @article.content %></p>
 
-<%= link_to "Edit This Article", edit_article_path(@article.id), class: "link-grey" %>
+<% if current_user %>
+	<%= link_to "Edit This Article", edit_article_path(@article.id), class: "link-grey" %>
+<% end %>

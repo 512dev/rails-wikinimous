@@ -44,8 +44,9 @@
 }
 .new-article{
 	margin-top: 5px;
+	padding-left: 10px;
 }
-.new-article a{
+.new-article {
 	text-decoration: none;
 	color: grey;
 	font-size: 1.25em;
@@ -64,5 +65,12 @@
 }
 .form-content{
 	margin: 10px;
+}
+.login{
+	display: flex;
+	justify-content: space-around;
+}
+.sign{
+	margin-top: 5px;
 }
 
